@@ -10,7 +10,6 @@ spec:
       app: guestbook-ui-sourcecode-tst
   template:
     metadata:
-      cos: 456
       labels:
         app: guestbook-ui-sourcecode-tst
         tst: tst-111127799899099j44545454545
@@ -18,6 +17,5 @@ spec:
       containers:
       - image: omniregistry/back-end:9ceceb5e31a48da90e8d7abb9c71eb91fd2cc538
         name: guestbook-ui-tst
-        unkn: unkn23
         ports:
         - containerPort: 80
